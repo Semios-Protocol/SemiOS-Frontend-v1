@@ -1,0 +1,237 @@
+.flex-btn {
+  display: flex;
+  justify-content: center;
+}
+.to-btn {
+  .van-button {
+    border-radius: 50px;
+    color: #1d008f !important;
+    text-align: center;
+    font-feature-settings: "clig" off, "liga" off;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    background-color: #fff !important;
+    border: 1px solid #6062aa;
+  }
+}
+.btn-two {
+  border-radius: 50px;
+  color: #1d008f !important;
+  text-align: center;
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  background-color: #fff !important;
+  border: 1px solid #6062aa;
+}
+.my-tbtn {
+  color: #745cd4;
+}
+.my-tbtn:active {
+  color: #6851be;
+}
+.dialog-title {
+  color: #f3f3f3;
+  text-align: center;
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: Roboto;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  padding-top: 24px;
+}
+.dialog-icon {
+  font-size: 12px;
+  position: absolute;
+  top: 12px;
+  right: 12px;
+  color: #f3f3f3;
+  .van-icon {
+    font-size: 12px;
+  }
+}
+.dialog-icon:active {
+  color: #fff;
+}
+
+.dialog-text {
+  color: #f3f3f3;
+  text-align: center;
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 300;
+  margin: 16px 0;
+  margin-bottom: 30px;
+  span {
+    color: #745cd4;
+  }
+}
+
+.noData {
+  color: #f3f3f3;
+  text-align: center;
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 300;
+  width: 90%;
+  margin: 0 auto;
+  margin-top: 100px;
+}
+
+.new-btns {
+  position: fixed;
+  bottom: 0px;
+  z-index: 2;
+  height: 86px;
+  width: 100%;
+  display: flex;
+  left: 0;
+  background: #000;
+  box-shadow: 0px -8px 14px 0px #28272c;
+  align-items: center;
+  padding: 0 20px;
+  box-sizing: border-box;
+}
+
+.link-icons {
+  display: flex;
+  margin-top: 30px;
+  div {
+    flex: 1;
+    text-align: center;
+    font-size: 40px;
+  }
+}
+.dis-btn {
+  border: 1px solid #745cd4;
+  background: #745cd4;
+}
+
+.text-vbtn {
+  color: #745cd4;
+  font-family: Roboto;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+}
+// .text-vbtn:active {
+//   color: #533fa1;
+// }
+
+.text-vbtn-dis {
+  color: #2e2555 !important;
+}
+.margin-t20 {
+  margin-top: 20px !important;
+}
+
+.margin-b20 {
+  margin-bottom: 20px !important;
+}
+
+.elbtns-l {
+  background: #745cd4;
+  border-radius: 2px;
+  border: 1px solid #745cd4;
+  color: #fff;
+  font-size: 14px;
+  font-family: Inter4;
+  width: 104px;
+  height: 32px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+.elbtns-l:hover {
+  background-color: #533fa1;
+  box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.25);
+  border-color: #533fa1;
+}
+.elbtns-l:active {
+  background-color: #533fa1;
+}
+.elbtns-b {
+  width: 104px;
+  height: 32px;
+  background: #ffffff;
+  border: 1px solid #745cd4;
+  border-radius: 2px;
+  color: #745cd4;
+  font-size: 14px;
+  font-family: Inter4;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+.elbtns-b:hover {
+  box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.25);
+}
+.elbtns-b:active {
+  background-color: #e8f2f4;
+}
+
+.btn_red {
+  background: #df5d5d;
+  border-radius: 2px;
+  border: 1px solid #df5d5d;
+  color: #000;
+  font-size: 18px;
+  font-family: Inter4;
+  width: 194px;
+  height: 52px;
+  // margin: 0 20px;
+}
+.btn_red:hover {
+  background-color: #ffa1a1;
+  box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.25);
+}
+.btn_red:active {
+  background-color: #b44c4c;
+}
+
+.btn_red3 {
+  background: #df5d5d;
+  border-radius: 2px;
+  border: 1px solid #df5d5d;
+  color: #000;
+  font-size: 16px;
+  font-family: Inter4;
+  width: 194px;
+  height: 32px;
+  cursor: pointer;
+  // margin: 0 20px;
+}
+.btn_red3:hover {
+  background-color: #ffa1a1;
+  border-color: #ffa1a1;
+  box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.25);
+}
+.btn_red3:active {
+  border-color: #b44c4c;
+  background-color: #b44c4c;
+}
+button {
+  cursor: pointer;
+}
+
+.el-dao-btnz {
+  border-radius: 2px;
+  width: 180px;
+  height: 42px;
+  text-align: center;
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+}
